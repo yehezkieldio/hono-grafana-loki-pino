@@ -1,0 +1,18 @@
+{
+  "name": "hono-grafana-loki-pino",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.6.10",
+    "pino": "^9.5.0",
+    "pino-loki": "^2.3.1",
+    "prom-client": "^15.1.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/bun": "latest",
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
